@@ -20,12 +20,12 @@ public class Day4 {
         }
     }
 
-    static void rotateArray(int[] arr, int n) {
-        int length = arr.length;
+    static void rotateArray(int[] nums, int n) {
+        int length = nums.length;
         n = n % length; // Handle cases where n is greater than the array length
-        reverseArray(arr, 0, length - 1);
-        reverseArray(arr, 0, n - 1);
-        reverseArray(arr, n, length - 1);
+        reverseArray(nums, 0, length - 1);
+        reverseArray(nums, 0, n - 1);
+        reverseArray(nums, n, length - 1);
     }
 
     static void reverseArray(int[] arr, int start, int end) {
