@@ -1,5 +1,7 @@
 
 // Problem Link : https://www.geeksforgeeks.org/batch/gfg-160-problems/track/arrays-gfg-160/problem/stock-buy-and-sell2615
+// Multiple transactions are allowed, find the maximum profit you can achieve from these transactions.
+
 
 // import java.util.*;
 public class Day7 {
