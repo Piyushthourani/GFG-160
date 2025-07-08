@@ -12,7 +12,7 @@ public class Day27 {
 
     static void mergeSortedArrays(int[] a, int[] b) {
         int i=a.length-1,j=0;
-        while(i>=0 && j<b.length
+        while(i>=0 && j<b.length)
         {
             if(a[i]<b[j])
             {
